@@ -1,0 +1,285 @@
+.inscribeTitle {
+  padding-bottom: 6px;
+}
+.inscribeBody {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.inscribeForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.inscribeForm label {
+  position: relative;
+  padding-bottom: 6px;
+  width: 50%;
+  color: #3c3241;
+}
+.inscribeBlock {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.inscribeForm input {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: rgb(234, 234, 238);
+}
+.inscribeForm input:focus-visible {
+  outline: none;
+  border-radius: none;
+}
+.inscribeForm input:focus {
+  transition: all;
+  transition-duration: 0.3s;
+  border: 1px solid #f0932b;
+}
+.inscribeForm div {
+  border: 1px solid transparent;
+}
+.inscribeForm div:hover {
+  transition: all;
+  transition-duration: 0.3s;
+  border: 1px solid #f0932b;
+}
+.inscribeDropzoneIcon {
+  font-size: 42px;
+  margin: 6px;
+}
+.inscribeDropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border: 1px dashed gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.inscribeDropzoneActive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border: 1px dashed gray;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.inscribeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 12px;
+  background-color: #f0932b;
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.inscribeButtonDisable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.699);
+  font-weight: 600;
+  margin-top: 12px;
+  background-color: #f0942b75;
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.inscribeButton:focus {
+  outline: none;
+}
+.inscribeButton:hover {
+  transition: all;
+  transition-duration: 0.3s;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.9),
+    -9px -9px 16px rgba(255, 255, 255, 0.9);
+}
+.connectWallet {
+  position: relatives;
+  background-color: #f0932b;
+  width: 100%;
+  padding: 12px 24px 12px 24px !important;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.connectWallet:hover {
+  color: white !important;
+  background-color: #b1630a;
+  transition: 0.4s;
+}
+.copiedWallet {
+  position: absolute;
+  top: 0px;
+  right: 14px;
+  font-size: 11px;
+  color: black;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #e0e5ec;
+  border: 0.5px solid #c1c2c4;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.inscribeAdressStatus {
+  position: absolute;
+  right: 12px;
+  top: 18px;
+}
+.inscribeInvoiceGroup {
+  border-bottom: 1px solid gray;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  width: 100%;
+}
+.inscribeQr {
+  display: flex;
+  justify-content: center;
+}
+.inscribePymentItem {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.inscribePymentItem p {
+  text-align: center;
+}
+.inscribeCopy {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inscribeCopy input {
+  width: 80%;
+  padding: 6px;
+  background-color: #e0e5ec;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+.inscribeCopy input:focus-visible {
+  outline: none;
+}
+.inscribeCopy button {
+  width: 20%;
+  min-width: 80px;
+  background-color: #f0932b;
+  border: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+.inscribeCopy button:focus {
+  outline: none;
+}
+.paymentItem {
+  width: 100%;
+  display: flex;
+}
+.paymentItem p {
+  width: 100%;
+}
+.paymentItem p:first-child {
+  text-align: right;
+  padding-right: 6px;
+}
+.paymentItem p:last-child {
+  padding-left: 6px;
+}
+.inscribeBlockTaken {
+  margin-top: 6px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.spinner {
+  margin-bottom: 2px;
+}
+.payToAddress {
+  width: 100%;
+  overflow-wrap: break-word;
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 20px;
+  position: relative;
+}
+.clipboard {
+  margin-left: 6px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+.mintBody {
+  padding: 40px 6px 40px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mintedTitle {
+  text-align: center;
+}
+.mintCheck {
+  background-color: white;
+  color: green;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 32px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+.mintTimes {
+  background-color: white;
+  color: rgb(199, 36, 36);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 32px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+.inscribeTitle h2 {
+  text-align: center;
+}
+@media (min-width: 570px) {
+  .inscribeForm label {
+    width: 50%;
+  }
+  .inscribeForm label:last-child {
+    text-align: right;
+  }
+}
+@media (max-width: 570px) {
+  .inscribeForm label {
+    width: 100%;
+  }
+  .inscribeForm label:last-child {
+    text-align: left;
+  }
+}

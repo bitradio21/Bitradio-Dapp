@@ -1,0 +1,49 @@
+{
+  "name": "bitradio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cmdcode/buff-utils": "^1.11.10",
+    "@cmdcode/crypto-utils": "^2.3.2",
+    "@cmdcode/tapscript": "^1.4.0",
+    "@mempool/liquid.js": "^2.2.1",
+    "@mempool/mempool.js": "^2.3.0",
+    "@react-icons/all-files": "^4.1.0",
+    "axios": "^1.4.0",
+    "bitcoin-address-validation": "^2.2.1",
+    "bootstrap": "^5.3.0",
+    "cors-anywhere": "^0.4.4",
+    "crypto-utils": "^0.1.3",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "firebase": "^10.1.0",
+    "jquery": "^3.7.0",
+    "moment": "^2.29.4",
+    "next": "13.4.10",
+    "nextjs-progressbar": "^0.0.16",
+    "nft.storage": "^7.1.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.10.1",
+    "react-moment": "^1.1.3",
+    "react-qr-code": "^2.0.11",
+    "react-range-slider-input": "^3.0.7",
+    "react-toastify": "^9.1.3",
+    "sats-connect": "^0.5.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}
